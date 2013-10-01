@@ -1,0 +1,12 @@
+<% if (site.tags.length){ %>
+<div class="widget widget_tagcloud panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title"><%= __('tagcloud') %></h3>
+    </div>
+    <div class="panel-body">
+        <div class="entry">
+            <%- tagcloud(site.tags, {}) %>
+        </div>
+    </div>
+</div>
+<% } %>

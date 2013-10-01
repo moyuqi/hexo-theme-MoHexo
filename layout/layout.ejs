@@ -1,0 +1,22 @@
+<%- partial('_partial/head') %>
+
+<body>
+<header id="header"><%- partial('_partial/header') %></header>
+<div id="main" class="container">
+    <div class="row">
+        <!--左边区域-->
+        <div class="col-md-8">
+            <div id="article-list">
+                <%- body %>
+            </div>
+        </div>
+        <!--右边区域-->
+        <div class="col-md-4">
+            <%- partial('_partial/sidebar') %>
+        </div>
+    </div>
+</div>
+<footer id="footer" class="container"><%- partial('_partial/footer') %></footer>
+<%- partial('_partial/after_footer') %>
+</body>
+</html>

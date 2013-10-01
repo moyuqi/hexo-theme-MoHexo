@@ -1,0 +1,16 @@
+<% if (site.categories.length){ %>
+<div class="widget widget_category panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title"><%= __('categories') %></h3>
+    </div>
+    <div class="panel-body">
+        <ul class="entry">
+            <% site.categories.sort('name').each(function(item){ %>
+            <li><a href="<%- config.root %><%- item.path %>"><%= item.name %></a>
+                <small><%= item.posts.length %></small>
+            </li>
+            <% }); %>
+        </ul>
+    </div>
+</div>
+<% } %>
