@@ -1,10 +1,10 @@
 <% if (site.posts.length){ %>
-<div class="widget widget_recent_posts panel panel-primary">
+<div id="widget_recent_posts" class="widget  panel panel-primary">
     <div class="panel-heading">
         <h3 class="panel-title"><%= __('recent_posts') %></h3>
     </div>
     <div class="panel-body">
-        <ul class="entry">
+        <ul class="list-unstyled">
             <% site.posts.sort('date', -1).limit(5).each(function(post){ %>
             <li>
                 <a href="<%= config.root %><%= post.path %>"><%= post.title %></a>

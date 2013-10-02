@@ -28,12 +28,14 @@
     <footer>
         <% if (index){ %>
         <% if (item.excerpt){ %>
-        <span class="btn btn-primary btn-xs">
-            <a href="<%- config.root %><%- item.path %>#more" class="more-link"><%=theme.excerpt_link %></a>
-        </span>
+        <div class="pull-right">
+             <span class="btn btn-primary btn-xs">
+                <a href="<%- config.root %><%- item.path %>#more" class="more-link"><%=theme.excerpt_link %></a>
+            </span>
+        </div>
         <% } %>
         <% if (item.comment && config.disqus_shortname){ %>
-        <div class="alignright">
+        <div class="pull-right">
             <a href="<%- item.permalink %>#disqus_thread" class="comment-link">Comments</a>
         </div>
         <% } %>
