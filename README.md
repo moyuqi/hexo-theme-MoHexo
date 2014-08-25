@@ -5,7 +5,7 @@ hexo-theme-MoHexo
 
 a hexo theme,base on bootstrap.
 
-[Demo](http://zhenghongen.cn/)
+[Demo](http://zhenghongen.cn/hexo-theme-MoHexo)
 
 ## Install
 
