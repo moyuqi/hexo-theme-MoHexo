@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=utf-8/>
+    <title>MoHexo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="a hexo theme,base on bootstrap">
+    <meta name="author" content="陌羽蕲moyuqi">
+    <link rel="shortcut icon" href="/img/favicon.ico"/>
+    <link rel="stylesheet" href="../css/lib/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/style.css"/>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+<body>
+<!-- header -->
+<header>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">MoHexo</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#archives">Archives</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#about">Rss</a></li>
+                </ul>
+                <div class="search">
+                    <form class="navbar-form navbar-right">
+                        <input type="text" class="form-control col-lg-8" placeholder="Search">
+                    </form>
+                </div>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+</header>
+<!-- /header -->
+<!-- main -->
+<div id="main" class="container">
+    <div class="row">
+        <!--左边区域-->
+        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+            <div id="article-list">
+                <article>
+                    <header>
+                        <h1><a href="archive.html">这是标题</a></h1>
+                        <ul class="list-inline">
+                            <li>
+                                <span class="glyphicon glyphicon-calendar"></span>&nbsp;&nbsp;
+                                <time datetime="2013-09-17T09:18:08.000Z">2013-09-17</time>
+                            </li>
+                            <li>
+                                  <span class="glyphicon glyphicon-tags"></span>&nbsp;&nbsp;
+                                          <a href="#" class="">标签1</a>
+                                          <a href="#" class="">标签2</a>
+                                          <a href="#" class="">标签3</a>
+                                          <a href="#" class="">标签4</a>
+                                          <a href="#" class="">标签5</a>
+                            </li>
+                        </ul>
+                    </header>
+                    <div class="entry">
+                        <p>
+                            我是内容！我是内容！我是内容！我是内容！
+                        </p>
+
+                    </div>
+                    <footer>
+                        <span class="btn btn-primary btn-xs"><a href="archive.html" class="more_link">Read More...</a></span>
+                        <div class="split-line"></div>
+                    </footer>
+                </article>
+
+
+                <ul id="pagination" class="pager">
+                    <li class="previous"><a href="#">← Older</a></li>
+                    <li class="next"><a href="#">Next&nbsp;→</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--右边区域-->
+        <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+            <div id="sidebar">
+               <!-- category-->
+                <div class="widget widget_category panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">分类</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul class="list-unstyled">
+                            <li><a href="#">分类1</a><small>12</small></li>
+                            <li><a href="#">分类2</a><small>15</small></li>
+                            <li><a href="#">分类3</a><small>23</small></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--blogroll-->
+                <div class="widget widget_blogroll panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">友情链接</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul class="list-unstyled">
+                            <li><a href="http://zespia.tw/hexo/zh-CN/" rel="friend met">Hexo</a></li>
+                            <li><a href="https://github.com/moyuqi/hexo-theme-MoHexo" rel="friend met" target="_blank">MoHexo</a></li>
+                            <li><a href="http://www.zhenghongen.cn/" rel="friend met" target="_blank">陌羽蕲moyuqi</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /main -->
+
+<!-- footer -->
+<footer id="footer" class="container">
+    <div class="row col-md-12">
+        <ul class="list-unstyled">
+            <li class="copyright">&copy 2013&nbsp;&nbsp;<strong><a href="#">MoYuQi</a></strong>|<a href="/sitemap.xml">网站地图</a></li>
+            <li class="theme-copyright">
+                <span>Blog powered by <strong><a href="http://zespia.tw/hexo/zh-CN/">hexo</a></strong></span>
+                Theme <strong><a href="https://github.com/moyuqi/hexo-theme-MoHexo">MoHexo</a></strong> desgined by<strong><a href="http://www.zhenghongen.cn/">MoYuQi</a></strong>
+            </li>
+        </ul>
+    </div>
+</footer>
+<!-- /footer -->
+<script src="../js/jquery-1.10.2.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+/*arcticle*/
+#article-list{
+    margin-top: 50px;
+}
+#article-list article{
+    padding: 10px 0px;
+}
+
+#article-list article header time {
+    color: #08c;
+}
+
+#article-list article footer .more_link{
+    color: #ffffff;
+}
+
+#article-list article footer .split-line {
+    height: 1px;
+    width: auto;
+    background: #ccc;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+
+/*sidebar*/
+#sidebar{
+    margin-top: 100px;
+}
